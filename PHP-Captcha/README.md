@@ -39,7 +39,7 @@ if(($_SESSION['security_code'] == $_POST['security_code']) && (!empty($_SESSION[
 
 ## Optional Extras
 
-If you would rather your <img> tag links to a jpg rather than a php file you can use mod_rewrite. By inserting the following in your .htaccess file you can use <img src=”captcha.jpg” /> instead.
+If you would rather your `<img>` tag links to a jpg rather than a php file you can use mod_rewrite. By inserting the following in your .htaccess file you can use `<img src=”captcha.jpg” />` instead.
 
 ```
 RewriteEngine on
